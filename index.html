@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/jspdf.min.js"></script>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="/milligram.min.css"/>
+  
+    <title>PDF HENERATOR</title>
+</head>
+<body>
+    <div class="container">
+    <h1>PDF GENERATOR</h1>
+    <div id="target" style="text-align: justify;text-justify: inter-word;">
+        
+       
+        
+    </div>
+    <form id="form">
+    <label for"text">Kod</label>
+        <input type="text" id="text" placeholder="Broj" required>
+        <label for="ageRangeField">Opcija</label>
+    <select id="opcija">
+      <option value="Jedan">Jedan</option>
+      <option value="Dva">Dva</option>
+      
+      
+    </select>
+    <button onclick="textToPdf()">Sacuvaj</button>
+    </form>
+</div>
+</body>
+<script src="/myscript.js"></script>
+<script src="/main.js"></script>
+
+</html>
